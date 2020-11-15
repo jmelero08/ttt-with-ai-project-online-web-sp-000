@@ -2,6 +2,10 @@
 
 require_relative '../config/environment'
 
+<<<<<<< HEAD
+=======
+puts "Welcome to Tic-Tac-Toe!"
+>>>>>>> 1386754762943388148f8b7e462d74979221fad0
 puts "How many players?"
 input = gets.strip
 
@@ -14,5 +18,14 @@ elsif input == "0"
 else 
   puts "Not a valid input"
 end
+<<<<<<< HEAD
 
 game.play
+=======
+game = Game.new
+until game.won?
+  game.play
+end
+end
+end
+>>>>>>> 1386754762943388148f8b7e462d74979221fad0
